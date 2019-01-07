@@ -1,1 +1,7 @@
+# Use this file if you have multiple views that you don't want to fill
+# the main apps urls.py with views, then include this file from the
+# main apps urls.py
+
 from django.conf.urls import url
+
+urlpatterns = []
